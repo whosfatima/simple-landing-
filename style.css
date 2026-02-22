@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../font/Vazir-Medium.ttf) format(truetype);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "vazir";
+  flex-direction: column;
+  background-color: #FEFAE0;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #283618;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 10px 20px;
+}
+header h1 {
+  color: #BC6C25;
+  font-size: 45px;
+  padding-left: 35px;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+header ul li {
+  font-size: 18px;
+  color: #DDA15E;
+  padding: 10px 20px;
+  transition: 0.2s ease-in-out;
+}
+header ul li:hover {
+  color: #BC6C25;
+  transition: 0.3s ease-in-out;
+}
+
+section {
+  height: 250px;
+  background-color: #DDA15E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section h1 {
+  font-size: 43px;
+  padding-top: 20px;
+  color: #283618;
+}
+section p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3F5426;
+}
+section button {
+  all: unset;
+  font-size: 22px;
+  border: 2px solid #283618;
+  margin: 50px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #606C38;
+  text-align: center;
+  width: 10%;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+section button:hover {
+  transition: all 0.3s ease-in-out;
+  color: #283618;
+  border: 2px solid #606C38;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  height: 200px;
+  background-color: #283618;
+}
+.second div {
+  border: 0.5px solid #DDA15E;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin: 20px;
+  flex: 1;
+}
+.second div h2 {
+  color: #BC6C25;
+}
+.second div p {
+  color: #DDA15E;
+  font-size: 20px;
+}
+
+footer {
+  height: 67px;
+  background-color: #DDA15E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 19px;
+  color: #283618;
+}/*# sourceMappingURL=style.css.map */

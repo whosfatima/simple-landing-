@@ -1,0 +1,125 @@
+header {
+    background-color: $bg-secondary;
+    // height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 10px 20px;
+    //  header one
+    h1 {
+        color: $text-secondary-color;
+        font-size: 45px;
+        // display: flex;
+        padding-left: 35px;
+    }
+    // ul and lists
+    ul {
+        display: flex;
+        list-style-type: none;
+        li {
+            font-size: 18px;
+            color: $text-primary-color;
+            padding: 10px 20px;
+            transition: .2s ease-in-out;
+            &:hover {
+                // font-size: 17px;
+                color: $text-secondary-color;
+                // text-shadow: 5px 5px 10px #fff;
+             
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+}
+
+section {
+    // position: relative;
+    height: 250px;
+    background-color: $text-primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // margin: 20px 0px;
+    // padding: 20px 0px;
+    // min-height: 100vh;
+    h1 {
+        // position: absolute;
+        // top: 36px;
+        font-size: 43px;
+        // padding-bottom: 12px;
+        padding-top: 20px; 
+        color: $bg-secondary;
+    }
+    p {
+        // position: absolute;
+        // bottom: 180px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #3F5426;
+        // text-shadow: $bg-secondary 10px 5px 4px;
+        // margin: 10px 60px;
+        // padding: 10px 0px;
+        // padding-top: 10px;
+    }
+    button {
+        // position: absolute;
+        // top: 50%;
+        all: unset;
+        font-size: 22px;
+        border: 2px solid $bg-secondary;
+        margin: 50px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: $bg-primary;
+        text-align: center;
+        width: 10%;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            transition: all .3s ease-in-out;
+            color: $bg-secondary;
+            border: 2px solid $bg-primary;
+        }
+    }
+} 
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    // padding: 20px;
+    // margin: 20px;
+    height: 200px;
+    background-color: $bg-secondary;
+    div {
+        // background-color: green;
+        border: .5px solid $text-primary-color;
+        border-radius: 10px;
+        padding: 20px 20px;
+        margin: 20px;
+        flex: 1;
+        h2 {
+            color: $text-secondary-color;
+        }
+        p {
+            color: $text-primary-color;
+            font-size: 20px;
+        }
+
+    }
+}
+
+footer {
+    height: 67px;
+    background-color: $text-primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 19px;
+        color: $bg-secondary;
+    }
+}
